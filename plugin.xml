@@ -24,13 +24,19 @@
       <view
             class="crisis.ui.GroupView"
             id="crisis.views.group"
-            name="GroupView"
+            name="Group"
             restorable="true">
       </view>
       <view
             class="crisis.ui.TransactionView"
             id="crisis.views.transaction"
-            name="TransactionView"
+            name="Table"
+            restorable="true">
+      </view>
+      <view
+            class="crisis.ui.TxChartView"
+            id="crisis.views.tx.chart"
+            name="Chart"
             restorable="true">
       </view>
    </extension>

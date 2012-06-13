@@ -22,10 +22,10 @@ import crisis.application.CrisisItemGroup;
 import crisis.application.CrisisItemGroup.ICrisisGroupListener;
 import crisis.application.CrisisItemTransaction;
 
-public class TransactionView extends ViewPart implements ISelectionListener,
+public class TxChartView extends ViewPart implements ISelectionListener,
 		ICrisisGroupListener {
 
-	public static final String ID = "crisis.views.transaction";
+	public static final String ID = "crisis.views.tx.chart";
 
 	private TableViewer tableViewer;
 
@@ -33,7 +33,7 @@ public class TransactionView extends ViewPart implements ISelectionListener,
 
 	private IAdapterFactory adapterFactory = new CrisisAdapterFactory();
 
-	public TransactionView() {
+	public TxChartView() {
 
 		super();
 	}
